@@ -3,7 +3,10 @@ import { StackScreenProps } from '@react-navigation/stack';
 
 export type MainParamsList = {
   Home: undefined;
+  ComponentDemo: undefined;
 };
+
+export type MainStackParamType = StackNavigationProp<MainParamsList>;
 
 export type ApplicationStackParamList = {
   Startup: undefined;

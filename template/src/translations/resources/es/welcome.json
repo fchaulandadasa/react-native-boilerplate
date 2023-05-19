@@ -1,0 +1,5 @@
+{
+  "title": "Bienvenido a",
+  "subtitle": "$t(common:appName.full)",
+  "description": "Quieres descubrir algunas características? Simplemente haga clic en uno de los tres botones en la parte inferior de la pantalla. El primero te permite cambiar el tema. El segundo te permite cambiar el idioma. Y el tercero lo lleva a los componentes personalizados de la aplicación."
+}

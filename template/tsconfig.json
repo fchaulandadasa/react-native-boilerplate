@@ -1,15 +1,40 @@
 {
-  "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "jsx": "react-native",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "sourceMap": true,
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
     "types": ["react-native", "jest", "node"],
     "typeRoots": [
       "@types",
       "./node_modules/@types"
     ],
-    "baseUrl": "..",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
-      "types/*": ["./@types/*"]
+      "types/*": ["./@types/*"],
+      "@components/*": ["./src/components/*"],
+			"@config/*": ["./src/config/*"],
+      "@hooks/*": ["./src/hooks/*"],
+			"@navigators/*": ["./src/navigators/*"],
+			"@screens/*": ["./src/screens/*"],
+      "@services/*": ["./src/services/*"],
+			"@store/*": ["./src/store/*"],
+			"@theme/*": ["./src/theme/*"],
+      "@translations/*": ["./src/translations/*"],
+			"@utils/*": ["./src/utils/*"],
     }
-  }
+  },
+  "exclude": ["node_modules"],
+  "extends": "expo/tsconfig.base"
 }

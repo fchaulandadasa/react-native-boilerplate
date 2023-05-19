@@ -1,24 +1,17 @@
 import React from 'react';
 import { View, Image } from 'react-native';
 import { useTheme } from '../../hooks';
+import AdasaLogo from '../../theme/assets/svg/adasa_logo'
 
 type Props = {
   height?: number | string;
   width?: number | string;
-  mode?: 'contain' | 'cover' | 'stretch' | 'repeat' | 'center';
 };
 
-const Brand = ({ height, width, mode }: Props) => {
-  const { Layout, Images } = useTheme();
-
+const Brand = ({ height, width }: Props) => {
   return (
     <View testID={'brand-img-wrapper'} style={{ height, width }}>
-      <Image
-        testID={'brand-img'}
-        style={Layout.fullSize}
-        source={Images.logo}
-        resizeMode={mode}
-      />
+      <AdasaLogo width={'100%'} height={'100%'} />
     </View>
   );
 };
