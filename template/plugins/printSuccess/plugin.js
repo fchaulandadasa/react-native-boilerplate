@@ -5,7 +5,7 @@ module.exports = {
     return new Promise(resolve => {
       console.log('\n');
       console.log(
-        'TheCodingMachine React-Native Boilerplate for Adasa initialized with success ! 🚀\n',
+        'TheCodingMachine React-Native Boilerplate - Adasa flavored initialized with success ! 🚀\n',
       );
       console.log(
         `
@@ -35,22 +35,7 @@ module.exports = {
         ${grey('        @88X8X8S888S ')}${green('888X88@88@8@8S%')}
         ${grey('         %@888888888888 ')}${green('SX88;888Xt%')}
         ${grey('           :tX@8888888XS:     t;')}
-        ${grey('                ::::           : ')}
-        
-        ${white('   [❤️ based on TCM]')}`,
-
-                                                                      
-          // '                                                                    .-`    `::  \n' +
-          //   ' `/////////////     `/shhhy+-   ://.        /sy/                   /ss/   :NMN: \n' +
-          //   ' `sssssyhhhyhhy:` `yMMMMNNMMMd. osss:     `hMMMh-    .-`         `+ss:   +MMm/. \n' +
-          //   '      :MMM+----. `mMMm+:-`.oo/` osssyo`  `dMMMMh-   ohhh-       `oyy+-  sMMd/.  \n' +
-          //   '      :MMM+`     oMMN/-         osssyhs`.mMMMMMh-   -hds`      .syy+- `hMMh:`   \n' +
-          //   '      :MMM+`     hMMd:          oss-ohhhMMMhdMMh-    `.       +NNm/. .dMMy:`    \n' +
-          //   '      :MMM+`     oMMN/          oss-`shdMMd:dMMh-    :-`     sMMd/. -NMMo-      \n' +
-          //   '      :MMM+`     `mMMm/`  `/+:. oss- `sdMd:.hMMh-   hMys-  `hMMh:` -hdy-`       \n' +
-          //   '      :MMM+`      `yMMMMdssss+  oss.  `oh/- hMMh-   -hyo:  dMMs:` -ss+`         \n' +
-          //   '      .oys:`        .+yhyo/-    -::`    ``  -syo-     ..`  +mo-   `//           \n' +
-          //   '        ``             ```                    ``            `.                  ',
+        ${grey('                ::::           :         💚 based on TCM Boilerplate')}`,      
       );
       if (previousValues.typescript) {
         console.log(blue('  THE TYPESCRIPT VERSION 📘'));
