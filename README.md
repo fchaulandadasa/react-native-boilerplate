@@ -1,6 +1,3 @@
-<div align="center">
-    <img src="documentation/static/img/tom-github-banner.png" alt="Logo" width="100%">
-</div>
 
 ![React Native Boilerplate License](https://img.shields.io/github/license/thecodingmachine/react-native-boilerplate)
 ![React Native Boilerplate Release Date](https://img.shields.io/github/release-date/thecodingmachine/react-native-boilerplate)
@@ -8,9 +5,9 @@
 ![React Native Boilerplate Top Language](https://img.shields.io/github/languages/top/thecodingmachine/react-native-boilerplate)
 [![CI](https://github.com/thecodingmachine/react-native-boilerplate/actions/workflows/CI.yml/badge.svg)](https://github.com/thecodingmachine/react-native-boilerplate/actions/workflows/CI.yml)
 
-# TheCodingMachine React Native boilerplate
+# TheCodingMachine React Native boilerplate - Adasa flavor
 
-This project is a [React Native](https://facebook.github.io/react-native/) boilerplate that can be used to kickstart a mobile application.
+This project is a [React Native](https://facebook.github.io/react-native/) boilerplate that can be used to kickstart a mobile application forked from [The coding machine](https://thecodingmachine.github.io/react-native-boilerplate)
 
 The boilerplate provides **an optimized architecture for building solid cross-platform mobile applications** through separation of concerns between the UI and business logic. It is fully documented so that each piece of code that lands in your application can be understood and used.
 
@@ -28,10 +25,10 @@ Follow instructions for your given `development OS` and `target OS`.
 
 ## Quick start
 
-To create a new project using the boilerplate simply run :
+To create a new project using the boilerplate simply run (change `MyApp` by your app name):
 
 ```
-npx react-native@latest init MyApp --template @thecodingmachine/react-native-boilerplate
+npx react-native@latest init MyApp --template https://github.com/fchaulandadasa/react-native-boilerplate
 ```
 
 Assuming you have all the requirements installed, you can run the project by running:
@@ -41,12 +38,9 @@ Assuming you have all the requirements installed, you can run the project by run
 
 ## Digging Deeper
 
-To learn more about this boilerplate, go to [full documentation](https://thecodingmachine.github.io/react-native-boilerplate)
+To learn more about this boilerplate, go to [full original documentation](https://thecodingmachine.github.io/react-native-boilerplate)
 
 ## License
 
 This project is released under the [MIT License](LICENSE).
 
-## About us
-
-[TheCodingMachine](https://www.thecodingmachine.com/) is a web and mobile agency based in Paris and Lyon, France. We are [constantly looking for new developers and team leaders](https://www.thecodingmachine.com/nous-rejoindre/) and we love [working with freelancers](https://coders.thecodingmachine.com/). You'll find [an overview of all our open source projects on our website](https://thecodingmachine.com/en/open-source-en/) and on [Github](https://github.com/thecodingmachine).
